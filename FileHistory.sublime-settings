@@ -5,11 +5,11 @@
 
     // Maximum number of history entries we should keep (older entries
     // truncated).
-    "global_max_entries": 100,
+    "global_max_entries": 1000,
 
     // Maximum number of history entries we should keep (older entries
     // truncated).
-    "project_max_entries": 50,
+    "project_max_entries": 500,
 
     // Try to use the saved position of the file or blindly use the
     // "new_tab_position" setting.
