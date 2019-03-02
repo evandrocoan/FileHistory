@@ -748,9 +748,9 @@ class OpenRecentlyClosedFileCommand(sublime_plugin.WindowCommand):
             self.__class__.__is_active = True
 
             if is_ST2:
-                self.window.show_quick_panel(display_list, self.open_file, font_flag)
+                self.window.show_quick_panel(display_list, self.open_file, font_flag | sublime.KEEP_OPEN_ON_FOCUS_LOST)
             else:
-                self.window.show_quick_panel(display_list, self.open_file, font_flag,
+                self.window.show_quick_panel(display_list, self.open_file, font_flag | sublime.KEEP_OPEN_ON_FOCUS_LOST,
                                              on_highlight=self.show_preview,
                                              selected_index=selected_index)
             sublime.status_message("[File History] You can quick-open or remove the currently "
