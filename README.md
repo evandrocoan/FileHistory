@@ -16,8 +16,8 @@ and the ability to open multiple files).
 
 ## Features ##
 
-* Reopen the most recently closed file 
-  or open a quick panel of recently used files 
+* Reopen the most recently closed file
+  or open a quick panel of recently used files
   to choose from
 * Display a preview of the file
   while browsing the quick panel
@@ -31,22 +31,32 @@ and the ability to open multiple files).
   while looking through the file history
   (when previewed or opened)
   or on start-up
-* Creates backups 
+* Creates backups
   in case you lose your history
 * Highly configurable through [FileHistory.sublime-settings][] file,
   like excluding files with regex patterns
 
 
-## Installation ##
+## Installation
 
-1. Install [Package Control][pck-ctrl].
-2. Once installed,
-   bring up the Command Palette
-   (`Command-Shift-P` on OS X, `Ctrl-Shift-P` on Linux/Windows).
-3. Select `Package Control: Install Package`
-   and then select `File History` when the list appears.
+### By Package Control
 
-Package Control will automagically keep the plugin up to date.
+1. Download & Install `Sublime Text 3` (https://www.sublimetext.com/3)
+1. Go to the menu `Tools -> Install Package Control`, then,
+   wait few seconds until the `Package Control` installation finishes
+1. Go to the menu `Preferences -> Package Control`
+1. Type `Package Control Add Channel` on the opened quick panel and press <kbd>Enter</kbd>
+1. Then, input the following address and press <kbd>Enter</kbd>
+   ```
+   https://raw.githubusercontent.com/evandrocoan/StudioChannel/master/channel.json
+   ```
+1. Now, go again to the menu `Preferences -> Package Control`
+1. This time type `Package Control Install Package` on the opened quick panel and press <kbd>Enter</kbd>
+1. Then, search for `FileHistory` and press <kbd>Enter</kbd>
+
+See also:
+1. [ITE - Integrated Toolset Environment](https://github.com/evandrocoan/ITE)
+1. [Package control docs](https://packagecontrol.io/docs/usage) for details.
 
 
 ## Usage ##
